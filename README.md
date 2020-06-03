@@ -1,2 +1,2 @@
 # DP-Greatest-SubArray
-print ALL Greatest SubArrays by DP
+print ALL Greatest SubArrays(no overlapping) by DP
