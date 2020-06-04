@@ -53,7 +53,11 @@ void greatestSubArr()
                 cout<<a[n]<<' ';
             }
             cout<<endl;
+            if( low == 0 ){
+            break;
+            }
         }
+        
     }
     cout<<endl;
     cout<<"The sum of greatest subarray:"<<max_sum<<endl;
