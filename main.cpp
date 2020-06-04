@@ -12,7 +12,7 @@ using namespace std;
 //The length of the array
 #define N 7
 //sample
-int a[N]={2,1,-3,1,2,-1,1};
+int a[N]={2,1,3,-100,2,1,1};
 
 
 void greatestSubArr()
@@ -53,6 +53,9 @@ void greatestSubArr()
                 cout<<a[n]<<' ';
             }
             cout<<endl;
+            if( low == 0 ){
+                break;
+            }
         }
     }
     cout<<endl;
